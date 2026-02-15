@@ -50,8 +50,6 @@ address {
   align-items: center;
 }
 .header-main {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-logo {
@@ -64,6 +62,7 @@ address {
   text-transform: uppercase;
   margin-right: 76px;
   align-items: center;
+  padding: 24px 0;
 }
 .nav {
   display: flex;
@@ -88,6 +87,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -95,10 +95,13 @@ address {
   cursor: pointer;
 }
 .contact {
+  margin-right: 0;
+  margin-left: auto;
 }
 .contact-list {
   display: flex;
   gap: 40px;
+  justify-content: flex-end;
 }
 .contact-item {
 }
@@ -109,6 +112,7 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
+  padding: 24px 0;
 }
 .contact-link:hover,
 .contact-link:focus {

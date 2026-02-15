@@ -22,11 +22,11 @@
   <body>
     <!-- #region header -->
     <header class="header-main">
-      <div class="container">
-        <a class="header-logo" href="./index.html"
-          ><span class="logo">WEB</span>STUDIO</a
-        >
-        <nav class="header-nav">
+      <div class="container logo-header">
+        <nav class="nav">
+          <a class="header-logo" href="./index.html"
+            ><span class="logo">WEB</span>STUDIO</a
+          >
           <ul class="nav-list">
             <li class="nav-item">
               <a class="nav-link" href="./index.html">Studio</a>
@@ -38,21 +38,22 @@
               <a class="nav-link" href="./index.html">Contacts</a>
             </li>
           </ul>
+
+          <address class="contact">
+            <ul class="contact-list">
+              <li class="contact-item">
+                <a class="contact-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="contact-item">
+                <a class="contact-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
         </nav>
-        <address class="contact">
-          <ul class="contact-list">
-            <li class="contact-item">
-              <a class="contact-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="contact-item">
-              <a class="contact-link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
       </div>
     </header>
     <!-- #endregion header -->
@@ -61,7 +62,9 @@
       <section class="hero">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <div class="button-hero">
+            <button class="hero-button" type="button">Order Service</button>
+          </div>
         </div>
       </section>
       <!-- #endregion hero -->
@@ -105,7 +108,7 @@
       <!-- #region team -->
       <section class="team">
         <div class="container">
-          <h2>Our Team</h2>
+          <h2 class="two">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
               <img
@@ -154,7 +157,7 @@
       <!-- #region portfolio -->
       <section class="portfolio">
         <div class="container">
-          <h2>Our Portfolio</h2>
+          <h2 class="two">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-items">
               <img

@@ -248,6 +248,14 @@ address {
   column-gap: 24px;
   padding-top: 72px;
 }
+
+.portfolio-wrap {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+}
+
 .portfolio-items {
 }
 .portfolio-h3 {
@@ -256,7 +264,6 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 32px;
 }
 .portfolio-text {
   font-weight: 400;
@@ -265,7 +272,6 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
   padding-top: 8px;
-  padding-bottom: 32px;
 }
 /* #endregion portfolio */
 /* #region footer */

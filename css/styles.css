@@ -113,6 +113,7 @@ address {
   color: #434455;
   font-style: normal;
   padding: 24px 0;
+  display: block;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -177,7 +178,7 @@ address {
 }
 .features-list {
   display: flex;
-  justify-content: space-around;
+
   gap: 24px;
   align-items: flex-start;
 }
@@ -219,7 +220,7 @@ address {
 }
 .team-list {
   display: flex;
-  justify-content: space-around;
+
   gap: 24px;
   align-items: flex-start;
   padding-top: 72px;
@@ -256,7 +257,7 @@ address {
 
 .portfolio-list {
   display: flex;
-  justify-content: space-around;
+
   row-gap: 48px;
   align-items: flex-start;
   flex-wrap: wrap;
